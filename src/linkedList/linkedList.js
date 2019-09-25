@@ -112,7 +112,7 @@ function LinkedList() {
     }
 
     /**
-     * 单链表反转
+     * 单链表反转（尾插法）
      */
     function reverseList() {
         const cur = head.next || {}
